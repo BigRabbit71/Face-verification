@@ -67,7 +67,8 @@ Design an algorithm to determine whether two face images come from the same pers
 
 #### **综上**
 我们选择了准确率更高、个人pc更方便训练的Scheme 3——利用OpenFace提取人脸图片的embedding，再构成pair训练一个全连接的分类神经网络。
-(二分类神经网络的训练代码见：Openface_MyPairTrain.py)
+ - embedding提取的代码见：Openface_getEmbedding.py
+ - 二分类神经网络的训练代码见：Openface_MyPairTrain.py
 
 ### **How to use the code?**
 
